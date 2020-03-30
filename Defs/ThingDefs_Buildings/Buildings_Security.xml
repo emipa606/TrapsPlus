@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--==================== Traps ======================== -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>TrapSpikes</defName>
+    <label>spikes trap</label>
+    <thingClass>Building_SpikesTrap</thingClass>
+    <graphicData>
+      <texPath>Things/Building/SpikesArmed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Beauty>-2</Beauty>
+      <TrapMeleeDamage>10</TrapMeleeDamage>
+      <TrapSpringChance>0.6</TrapSpringChance>
+    </statBases>
+    <description>A set of poison spikes that can inflict damage on the victims legs, feet or hands. It triggers for every other victim.</description>
+    <stuffCategories>
+	  <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>TrapCaltrops</defName>
+    <label>caltrops trap</label>
+    <thingClass>Building_CaltropsTrap</thingClass>
+    <graphicData>
+      <texPath>Things/Building/CaltropsArmed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Beauty>-2</Beauty>
+      <TrapMeleeDamage>5</TrapMeleeDamage>
+      <TrapSpringChance>0.6</TrapSpringChance>
+    </statBases>
+    <description>A set of small caltrops that can poke and penetrate the victims legs, feet or hands and slow them down. It triggers for every other victim.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>TrapBear</defName>
+    <label>bear trap</label>
+    <thingClass>Building_BearTrap</thingClass>
+    <graphicData>
+      <texPath>Things/Building/BearArmed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+      <Beauty>-4</Beauty>
+      <TrapMeleeDamage>15</TrapMeleeDamage>
+      <TrapSpringChance>0.7</TrapSpringChance>
+    </statBases>
+    <description>A trap that closes its spiky teeth on the victims legs, feet and hands and stuns them for a moderate amount of time.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+      <trapUnarmedGraphicData>
+        <texPath>Things/Building/BearUnarmed</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>Cutout</shaderType>
+      </trapUnarmedGraphicData>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>TrapBodySlicer</defName>
+    <label>body slicer trap</label>
+    <thingClass>Building_BodySlicerTrap</thingClass>
+    <graphicData>
+      <texPath>Things/Building/BodySlicerArmed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>true</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Beauty>-4</Beauty>
+      <TrapMeleeDamage>90</TrapMeleeDamage>
+      <TrapSpringChance>0.7</TrapSpringChance>
+    </statBases>
+    <description>A trap that closes its two blades on the victims body.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>150</costStuffCount>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+      <trapUnarmedGraphicData>
+        <texPath>Things/Building/BodySlicerUnarmed</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>Cutout</shaderType>
+      </trapUnarmedGraphicData>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>TrapBodyCrusher</defName>
+    <label>body crusher trap</label>
+    <thingClass>Building_BodyCrusherTrap</thingClass>
+    <graphicData>
+      <texPath>Things/Building/BodyCrusherArmed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>true</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>2700</WorkToBuild>
+      <Beauty>-4</Beauty>
+      <TrapMeleeDamage>110</TrapMeleeDamage>
+      <TrapSpringChance>0.7</TrapSpringChance>
+    </statBases>
+    <description>A trap that closes its two weights on the victims body and head.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>200</costStuffCount>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+      <trapUnarmedGraphicData>
+        <texPath>Things/Building/BodyCrusherUnarmed</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>Cutout</shaderType>
+      </trapUnarmedGraphicData>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>TrapHeatPad</defName>
+    <label>heat pad trap</label>
+    <thingClass>Building_HeatPadTrap</thingClass>
+    <graphicData>
+      <texPath>Things/Building/TrapPad</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>1300</WorkToBuild>
+      <Beauty>-2</Beauty>
+      <TrapMeleeDamage>20</TrapMeleeDamage>
+      <TrapSpringChance>0.8</TrapSpringChance>
+    </statBases>
+    <description>A heat pad that can burn the victims legs, feet or hands and has a chance to set them on fire.</description>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>70</basePowerConsumption>
+      </li>
+	  <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(255,0,0,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+	<researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>TrapFreezePad</defName>
+    <label>freeze pad trap</label>
+    <thingClass>Building_FreezePadTrap</thingClass>
+    <graphicData>
+      <texPath>Things/Building/TrapPad</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>1300</WorkToBuild>
+      <Beauty>-2</Beauty>
+      <TrapMeleeDamage>20</TrapMeleeDamage>
+      <TrapSpringChance>0.8</TrapSpringChance>
+    </statBases>
+    <description>A heat pad that can burn the victims legs, feet or hands.</description>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>70</basePowerConsumption>
+      </li>
+	  <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(0,0,255,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+	<researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>TrapSaws</defName>
+    <label>saws trap</label>
+    <thingClass>Building_SawsTrap</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Saws</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>true</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>1700</WorkToBuild>
+      <Beauty>-3</Beauty>
+      <TrapMeleeDamage>80</TrapMeleeDamage>
+      <TrapSpringChance>0.6</TrapSpringChance>
+    </statBases>
+    <description>A set of saws that can severely damage the top part of the victim.</description>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>90</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+	<researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+    </building>
+  </ThingDef>
+  
+</Defs>
