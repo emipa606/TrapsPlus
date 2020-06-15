@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!--==================== Traps ======================== -->
   <ThingDef ParentName="BuildingBase">
     <defName>TrapSpikes</defName>
@@ -27,7 +26,7 @@
     </statBases>
     <description>A set of poison spikes that can inflict damage on the victims legs, feet or hands. It triggers for every other victim.</description>
     <stuffCategories>
-	  <li>Metallic</li>
+      <li>Metallic</li>
     </stuffCategories>
     <costStuffCount>35</costStuffCount>
     <designationCategory>Security</designationCategory>
@@ -35,7 +34,6 @@
       <isTrap>true</isTrap>
     </building>
   </ThingDef>
-  
   <ThingDef ParentName="BuildingBase">
     <defName>TrapCaltrops</defName>
     <label>caltrops trap</label>
@@ -69,7 +67,6 @@
       <isTrap>true</isTrap>
     </building>
   </ThingDef>
-  
   <ThingDef ParentName="BuildingBase">
     <defName>TrapBear</defName>
     <label>bear trap</label>
@@ -108,7 +105,6 @@
       </trapUnarmedGraphicData>
     </building>
   </ThingDef>
-  
   <ThingDef ParentName="BuildingBase">
     <defName>TrapBodySlicer</defName>
     <label>body slicer trap</label>
@@ -147,7 +143,6 @@
       </trapUnarmedGraphicData>
     </building>
   </ThingDef>
-  
   <ThingDef ParentName="BuildingBase">
     <defName>TrapBodyCrusher</defName>
     <label>body crusher trap</label>
@@ -186,7 +181,6 @@
       </trapUnarmedGraphicData>
     </building>
   </ThingDef>
-  
   <ThingDef ParentName="BuildingBase">
     <defName>TrapHeatPad</defName>
     <label>heat pad trap</label>
@@ -215,19 +209,19 @@
       <Steel>50</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
-	<comps>
+    <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>70</basePowerConsumption>
       </li>
-	  <li Class="CompProperties_Glower">
+      <li Class="CompProperties_Glower">
         <glowRadius>3</glowRadius>
         <glowColor>(255,0,0,0)</glowColor>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
     </comps>
-	<researchPrerequisites>
+    <researchPrerequisites>
       <li>Electricity</li>
     </researchPrerequisites>
     <designationCategory>Security</designationCategory>
@@ -235,7 +229,6 @@
       <isTrap>true</isTrap>
     </building>
   </ThingDef>
-  
   <ThingDef ParentName="BuildingBase">
     <defName>TrapFreezePad</defName>
     <label>freeze pad trap</label>
@@ -259,24 +252,24 @@
       <TrapMeleeDamage>20</TrapMeleeDamage>
       <TrapSpringChance>0.8</TrapSpringChance>
     </statBases>
-    <description>A heat pad that can burn the victims legs, feet or hands.</description>
+    <description>A freeze pad that can freeze the victims legs, feet or hands.</description>
     <costList>
       <Steel>50</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
-	<comps>
+    <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>70</basePowerConsumption>
       </li>
-	  <li Class="CompProperties_Glower">
+      <li Class="CompProperties_Glower">
         <glowRadius>3</glowRadius>
         <glowColor>(0,0,255,0)</glowColor>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
     </comps>
-	<researchPrerequisites>
+    <researchPrerequisites>
       <li>Electricity</li>
     </researchPrerequisites>
     <designationCategory>Security</designationCategory>
@@ -284,7 +277,6 @@
       <isTrap>true</isTrap>
     </building>
   </ThingDef>
-  
   <ThingDef ParentName="BuildingBase">
     <defName>TrapSaws</defName>
     <label>saws trap</label>
@@ -313,15 +305,15 @@
       <Steel>100</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
-	<comps>
+    <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>90</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
     </comps>
-	<researchPrerequisites>
+    <researchPrerequisites>
       <li>Electricity</li>
     </researchPrerequisites>
     <designationCategory>Security</designationCategory>
@@ -329,5 +321,4 @@
       <isTrap>true</isTrap>
     </building>
   </ThingDef>
-  
 </Defs>

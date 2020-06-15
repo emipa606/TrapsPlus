@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Traps Plus (Continued)</name>
-  	<packageId>Mlie.TrapsPlus</packageId>
-	<author>shite</author>
-	<url>https://github.com/emipa606/TrapsPlus</url>
-	<supportedVersions>
-		<li>1.1</li>
-	</supportedVersions>	
-	<modDependencies>
-		<li>
-			<packageId>Dorely.BetaTraps</packageId>
-            <displayName>BetaTraps</displayName>
-            <steamWorkshopUrl>steam://url/CommunityFilePage/1671814939</steamWorkshopUrl>
-		</li>
-	</modDependencies>
-	<loadAfter>	
-		<li>Dorely.BetaTraps</li>
-	</loadAfter>
-	<description>Update of shites mod for RimWorld 1.1
+  <packageId>Mlie.TrapsPlus</packageId>
+  <author>shite</author>
+  <url>https://github.com/emipa606/TrapsPlus</url>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Dorely.BetaTraps</packageId>
+      <displayName>BetaTraps</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1671814939</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Dorely.BetaTraps</li>
+  </loadAfter>
+  <description>Update of shites mod for RimWorld 1.1
 https://ludeon.com/forums/index.php?topic=34326.0
 
 [img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
