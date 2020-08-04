@@ -54,7 +54,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="BetaTraps">
-      <HintPath>..\..\..\..\..\..\workshop\content\294100\1671814939\1.1\Assemblies\BetaTraps.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\1671814939\1.2\Assemblies\BetaTraps.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
