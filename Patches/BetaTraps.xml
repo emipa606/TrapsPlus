@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BetaTraps_TrapDeadfall"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Things/Building/Security/DeadfallArmed</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BetaTraps_TrapDeadfall"]/building/trapUnarmedGraphicData/texPath</xpath>
+    <value>
+      <texPath>Things/Building/Security/DeadfallUnarmed</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BetaTraps_TrapDeadfall"]/graphicData</xpath>
+    <value>
+      <allowFlip>false</allowFlip>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BetaTraps_TrapDeadfall" or defName="TrapSpike"]/rotatable</xpath>
+    <value>
+      <rotatable>true</rotatable>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BetaTraps_TrapDeadfall" or defName="TrapSpike"]/graphicData/graphicClass</xpath>
+    <value>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BetaTraps_TrapDeadfall" or defName="TrapSpike"]/building/trapUnarmedGraphicData/graphicClass</xpath>
+    <value>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TrapSpike"]/graphicData/allowFlip</xpath>
+    <value>
+      <allowFlip>false</allowFlip>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BetaTraps_TrapDeadfall"]</xpath>
+    <value>
+      <uiIconPath>Things/Building/Security/DeadfallArmed_UI</uiIconPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TrapSpike"]</xpath>
+    <value>
+      <uiIconPath>Things/Building/Security/TrapSpikeArmed_UI</uiIconPath>
+    </value>
+  </Operation>
+</Patch>

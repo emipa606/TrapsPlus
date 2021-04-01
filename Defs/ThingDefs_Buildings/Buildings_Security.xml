@@ -7,14 +7,15 @@
     <thingClass>Building_SpikesTrap</thingClass>
     <graphicData>
       <texPath>Things/Building/SpikesArmed</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <damageData>
         <rect>(0,0,1,0.15)</rect>
       </damageData>
     </graphicData>
+    <uiIconPath>Things/Building/SpikesArmed_UI</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <drawerType>RealtimeOnly</drawerType>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <tickerType>Normal</tickerType>
     <stealable>false</stealable>
     <statBases>
@@ -40,14 +41,15 @@
     <thingClass>Building_CaltropsTrap</thingClass>
     <graphicData>
       <texPath>Things/Building/CaltropsArmed</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <damageData>
         <rect>(0,0,1,0.15)</rect>
       </damageData>
     </graphicData>
+    <uiIconPath>Things/Building/CaltropsArmed_UI</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <drawerType>RealtimeOnly</drawerType>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <tickerType>Normal</tickerType>
     <stealable>false</stealable>
     <statBases>
@@ -73,14 +75,15 @@
     <thingClass>Building_BearTrap</thingClass>
     <graphicData>
       <texPath>Things/Building/BearArmed</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <damageData>
         <rect>(0,0,1,0.15)</rect>
       </damageData>
     </graphicData>
+    <uiIconPath>Things/Building/BearArmed_UI</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <drawerType>RealtimeOnly</drawerType>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <tickerType>Normal</tickerType>
     <stealable>false</stealable>
     <statBases>
@@ -100,7 +103,7 @@
       <isTrap>true</isTrap>
       <trapUnarmedGraphicData>
         <texPath>Things/Building/BearUnarmed</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
+        <graphicClass>Graphic_Multi</graphicClass>
         <shaderType>Cutout</shaderType>
       </trapUnarmedGraphicData>
     </building>
@@ -111,11 +114,12 @@
     <thingClass>Building_BodySlicerTrap</thingClass>
     <graphicData>
       <texPath>Things/Building/BodySlicerArmed</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <damageData>
         <rect>(0,0,1,0.15)</rect>
       </damageData>
     </graphicData>
+    <uiIconPath>Things/Building/BodySlicerArmed_UI</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <drawerType>RealtimeOnly</drawerType>
     <rotatable>true</rotatable>
@@ -138,7 +142,7 @@
       <isTrap>true</isTrap>
       <trapUnarmedGraphicData>
         <texPath>Things/Building/BodySlicerUnarmed</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
+        <graphicClass>Graphic_Multi</graphicClass>
         <shaderType>Cutout</shaderType>
       </trapUnarmedGraphicData>
     </building>
@@ -149,11 +153,12 @@
     <thingClass>Building_BodyCrusherTrap</thingClass>
     <graphicData>
       <texPath>Things/Building/BodyCrusherArmed</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <damageData>
         <rect>(0,0,1,0.15)</rect>
       </damageData>
     </graphicData>
+    <uiIconPath>Things/Building/BodyCrusherArmed_UI</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <drawerType>RealtimeOnly</drawerType>
     <rotatable>true</rotatable>
@@ -176,7 +181,7 @@
       <isTrap>true</isTrap>
       <trapUnarmedGraphicData>
         <texPath>Things/Building/BodyCrusherUnarmed</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
+        <graphicClass>Graphic_Multi</graphicClass>
         <shaderType>Cutout</shaderType>
       </trapUnarmedGraphicData>
     </building>
@@ -187,14 +192,15 @@
     <thingClass>Building_HeatPadTrap</thingClass>
     <graphicData>
       <texPath>Things/Building/TrapPad</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <damageData>
         <rect>(0,0,1,0.15)</rect>
       </damageData>
     </graphicData>
+    <uiIconPath>Things/Building/TrapPad_UI</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <drawerType>RealtimeOnly</drawerType>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <tickerType>Normal</tickerType>
     <stealable>false</stealable>
     <statBases>
@@ -235,14 +241,15 @@
     <thingClass>Building_FreezePadTrap</thingClass>
     <graphicData>
       <texPath>Things/Building/TrapPad</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <damageData>
         <rect>(0,0,1,0.15)</rect>
       </damageData>
     </graphicData>
+    <uiIconPath>Things/Building/TrapPad_UI</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <drawerType>RealtimeOnly</drawerType>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <tickerType>Normal</tickerType>
     <stealable>false</stealable>
     <statBases>
@@ -283,11 +290,12 @@
     <thingClass>Building_SawsTrap</thingClass>
     <graphicData>
       <texPath>Things/Building/Saws</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <damageData>
         <rect>(0,0,1,0.15)</rect>
       </damageData>
     </graphicData>
+    <uiIconPath>Things/Building/Saws_UI</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <drawerType>RealtimeOnly</drawerType>
     <rotatable>true</rotatable>
