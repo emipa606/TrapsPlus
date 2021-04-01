@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <SlowedTrap.label>slowed</SlowedTrap.label>
   <SlowedTrap.description>slowed</SlowedTrap.description>
-
   <PoisonedTrap.label>poisoned</PoisonedTrap.label>
   <PoisonedTrap.description>poisoned</PoisonedTrap.description>
-
-
 </LanguageData>

@@ -18,18 +18,21 @@
   <loadAfter>
     <li>Dorely.BetaTraps</li>
   </loadAfter>
-  <description>Update of shites mod for RimWorld 1.1
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of shites mod
 https://ludeon.com/forums/index.php?topic=34326.0
 
-[img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/TrapsPlus
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/TrapsPlus][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 This is a mod that plans on adding more traps to the Rimworld universe. These are the current traps that are included in the mod:
 Bear Trap (Rearmable)
 Spikes
@@ -41,5 +44,18 @@ Freeze Pad (Powered)
 Saws (Powered)
 More will be added in the future  :)
 
-If anyone would like to help me with creating better textures, please message me!</description>
+If anyone would like to help me with creating better textures, please message me!
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
