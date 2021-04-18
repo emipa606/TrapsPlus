@@ -36,11 +36,15 @@
       <graphicClass>Graphic_Multi</graphicClass>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="TrapSpike"]/graphicData/allowFlip</xpath>
-    <value>
-      <allowFlip>false</allowFlip>
-    </value>
+    <success>Always</success>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="TrapSpike"]/graphicData/allowFlip</xpath>
+      <value>
+        <allowFlip>false</allowFlip>
+      </value>
+    </match>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="TrapDeadfall" or defName="BetaTraps_TrapDeadfall"]</xpath>
