@@ -1,5 +1,8 @@
 # Changelog for TrapsPlus
 
+1.0.7.0 - Mod updated for 1.3 and passed autotests
+
+
 1.0.6.0 - Added conditional check on the allowFlip patch
 
 
