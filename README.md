@@ -1,6 +1,6 @@
 # TrapsPlus
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of shites mod
 https://ludeon.com/forums/index.php?topic=34326.0
@@ -8,19 +8,10 @@ https://ludeon.com/forums/index.php?topic=34326.0
 - Higher quality textures, thanks to Jabbamonkey
 - You can select the new or old texture by rotating the trap before placing
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/TrapsPlus]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 This is a mod that plans on adding more traps to the Rimworld universe. These are the current traps that are included in the mod:
@@ -37,7 +28,7 @@ More will be added in the future  :)
 If anyone would like to help me with creating better textures, please message me!
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -47,7 +38,6 @@ If anyone would like to help me with creating better textures, please message me
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 

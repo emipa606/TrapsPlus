@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Traps Plus (Continued)</name>
   <packageId>Mlie.TrapsPlus</packageId>
@@ -19,14 +19,14 @@
   <loadAfter>
     <li>Dorely.BetaTraps</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of shites mod
 https://ludeon.com/forums/index.php?topic=34326.0
 
 - Higher quality textures, thanks to Jabbamonkey
 - You can select the new or old texture by rotating the trap before placing
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
@@ -35,7 +35,7 @@ https://ludeon.com/forums/index.php?topic=34326.0
 	[/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 This is a mod that plans on adding more traps to the Rimworld universe. These are the current traps that are included in the mod:
 Bear Trap (Rearmable)
@@ -51,7 +51,7 @@ More will be added in the future  :)
 If anyone would like to help me with creating better textures, please message me!
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -60,6 +60,5 @@ If anyone would like to help me with creating better textures, please message me
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>

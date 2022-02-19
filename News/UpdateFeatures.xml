@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="TrapsPlus_UpdateFeatureBase">
     <modNameReadable>TrapsPlus</modNameReadable>
     <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2042706367</linkUrl>
   </HugsLib.UpdateFeatureDef>
-  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef ParentName="TrapsPlus_UpdateFeatureBase">
     <defName>TrapsPlus_1_0_4_0</defName>
     <assemblyVersion>1.0.4.0</assemblyVersion>
     <content>There is now a new texture for the traps, made by Jabbamonkey.
