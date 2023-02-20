@@ -137,6 +137,16 @@
       <li>Metallic</li>
     </stuffCategories>
     <costStuffCount>150</costStuffCount>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>10</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
     <designationCategory>Security</designationCategory>
     <building>
       <isTrap>true</isTrap>
@@ -176,6 +186,16 @@
       <li>Metallic</li>
     </stuffCategories>
     <costStuffCount>200</costStuffCount>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
     <designationCategory>Security</designationCategory>
     <building>
       <isTrap>true</isTrap>

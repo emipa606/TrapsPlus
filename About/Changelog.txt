@@ -1,5 +1,8 @@
 # Changelog for TrapsPlus
 
+1.4.2 - The more advanced traps should now all need electricity and the corresponding research
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
