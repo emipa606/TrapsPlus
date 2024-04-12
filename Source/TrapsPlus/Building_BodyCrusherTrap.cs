@@ -22,7 +22,7 @@ public class Building_BodyCrusherTrap : Building_TrapRearmable
 
         if ((bool)typeof(Building_TrapRearmable)
                 .GetField("autoRearm", BindingFlags.Instance | BindingFlags.NonPublic)
-                ?.GetValue(this))
+                ?.GetValue(this)!)
         {
             Map.designationManager.AddDesignation(new Designation(this, BetaTrapDefOf.RearmTrap));
         }

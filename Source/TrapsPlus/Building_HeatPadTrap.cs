@@ -50,7 +50,7 @@ public class Building_HeatPadTrap : Building_Trap
         DamagePawn(p);
         if (Rand.Range(0, 2) == 0)
         {
-            p.TryAttachFire(Rand.Range(0.1f, 0.15f));
+            p.TryAttachFire(Rand.Range(0.1f, 0.15f), this);
         }
     }
 }
