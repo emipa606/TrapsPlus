@@ -5,15 +5,15 @@ namespace RimWorld;
 
 public class Building_CaltropsTrap : Building_Trap
 {
-    private static readonly FloatRange TrapDamageFactor = new FloatRange(0.7f, 1.3f);
+    private static readonly FloatRange TrapDamageFactor = new(0.7f, 1.3f);
 
-    private static readonly IntRange DamageCount = new IntRange(1, 2);
+    private static readonly IntRange DamageCount = new(1, 2);
 
     private bool hitCount;
 
-    private void DamagePawn(Pawn p)
+    private void damagePawn(Pawn p)
     {
-        var height = BodyPartHeight.Bottom;
+        const BodyPartHeight height = BodyPartHeight.Bottom;
         var statValue = this.GetStatValue(StatDefOf.TrapMeleeDamage);
         var num = Mathf.RoundToInt(statValue * TrapDamageFactor.RandomInRange);
         var randomInRange = DamageCount.RandomInRange;
@@ -37,7 +37,7 @@ public class Building_CaltropsTrap : Building_Trap
     {
         if (p != null && !hitCount)
         {
-            DamagePawn(p);
+            damagePawn(p);
             hitCount = true;
         }
         else

@@ -7,9 +7,9 @@ namespace RimWorld;
 
 public class Building_BodySlicerTrap : Building_TrapRearmable
 {
-    private static readonly FloatRange TrapDamageFactor = new FloatRange(0.7f, 1.3f);
+    private static readonly FloatRange TrapDamageFactor = new(0.7f, 1.3f);
 
-    private static readonly IntRange DamageCount = new IntRange(1, 2);
+    private new static readonly IntRange DamageCount = new(1, 2);
 
     protected override void SpringSub(Pawn p)
     {
@@ -17,7 +17,7 @@ public class Building_BodySlicerTrap : Building_TrapRearmable
             ?.SetValue(this, false);
         if (p != null)
         {
-            DamagePawn(p);
+            damagePawn(p);
         }
 
         if ((bool)typeof(Building_TrapRearmable)
@@ -28,9 +28,9 @@ public class Building_BodySlicerTrap : Building_TrapRearmable
         }
     }
 
-    private void DamagePawn(Pawn p)
+    private void damagePawn(Pawn p)
     {
-        var height = BodyPartHeight.Middle;
+        const BodyPartHeight height = BodyPartHeight.Middle;
         var num = Mathf.RoundToInt(this.GetStatValue(StatDefOf.TrapMeleeDamage) * TrapDamageFactor.RandomInRange);
         var randomInRange = DamageCount.RandomInRange;
         for (var i = 0; i < randomInRange; i++)

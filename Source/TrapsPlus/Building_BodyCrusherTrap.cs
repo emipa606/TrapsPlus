@@ -7,9 +7,9 @@ namespace RimWorld;
 
 public class Building_BodyCrusherTrap : Building_TrapRearmable
 {
-    private static readonly FloatRange TrapDamageFactor = new FloatRange(0.7f, 1.3f);
+    private static readonly FloatRange TrapDamageFactor = new(0.7f, 1.3f);
 
-    private static readonly IntRange DamageCount = new IntRange(1, 2);
+    private new static readonly IntRange DamageCount = new(1, 2);
 
     protected override void SpringSub(Pawn p)
     {
@@ -17,7 +17,7 @@ public class Building_BodyCrusherTrap : Building_TrapRearmable
             ?.SetValue(this, false);
         if (p != null)
         {
-            DamagePawn(p);
+            damagePawn(p);
         }
 
         if ((bool)typeof(Building_TrapRearmable)
@@ -28,7 +28,7 @@ public class Building_BodyCrusherTrap : Building_TrapRearmable
         }
     }
 
-    private void DamagePawn(Pawn p)
+    private void damagePawn(Pawn p)
     {
         var height = Rand.Value >= 0.666f ? BodyPartHeight.Middle : BodyPartHeight.Top;
         var num = Mathf.RoundToInt(this.GetStatValue(StatDefOf.TrapMeleeDamage) * TrapDamageFactor.RandomInRange);

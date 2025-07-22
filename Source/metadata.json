@@ -2,5 +2,17 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 13244,
+  "LinesOfXML": 16403,
+  "CodeBaseSize": 71,
+  "LastXmlCleaning": "2025-07-22T20:57:12.1176012+02:00",
+  "SocialImageSet": true,
+  "SearchTags": [
+    "traps",
+    " variety"
+  ]
 }

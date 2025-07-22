@@ -5,13 +5,13 @@ namespace RimWorld;
 
 public class Building_SawsTrap : Building_Trap
 {
-    private static readonly FloatRange TrapDamageFactor = new FloatRange(0.7f, 1.3f);
+    private static readonly FloatRange TrapDamageFactor = new(0.7f, 1.3f);
 
-    private static readonly IntRange DamageCount = new IntRange(1, 2);
+    private static readonly IntRange DamageCount = new(1, 2);
 
-    public CompPowerTrader powerComp;
+    private CompPowerTrader powerComp;
 
-    public bool CanDamageNow => powerComp.PowerOn;
+    private bool CanDamageNow => powerComp.PowerOn;
 
     public override void SpawnSetup(Map map, bool respawningAfterLoad)
     {
@@ -19,9 +19,9 @@ public class Building_SawsTrap : Building_Trap
         powerComp = GetComp<CompPowerTrader>();
     }
 
-    private void DamagePawn(Pawn p)
+    private void damagePawn(Pawn p)
     {
-        var height = BodyPartHeight.Top;
+        const BodyPartHeight height = BodyPartHeight.Top;
         var statValue = this.GetStatValue(StatDefOf.TrapMeleeDamage);
         var num = Mathf.RoundToInt(statValue * TrapDamageFactor.RandomInRange);
         var randomInRange = DamageCount.RandomInRange;
@@ -44,7 +44,7 @@ public class Building_SawsTrap : Building_Trap
     {
         if (p != null && CanDamageNow)
         {
-            DamagePawn(p);
+            damagePawn(p);
         }
     }
 }

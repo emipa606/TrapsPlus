@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 2199190510
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 135c16ce0ed1e66cc4b8191db26b8b07
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 135c16ce0ed1e66cc4b8191db26b8b07
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Security/DeadfallArmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Saws_UI.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BearArmed_UI.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BodySlicerArmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BodyCrusherArmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/CaltropsArmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BearArmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BodyCrusherArmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/TrapPad_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Security/DeadfallUnarmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BodyCrusherUnarmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Security/DeadfallUnarmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BodySlicerUnarmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/SpikesArmed_UI.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Security/TrapSpikeArmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BearUnarmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Saws_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Security/TrapSpikeArmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BodySlicerArmed_UI.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Security/DeadfallArmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/TrapPad_UI.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BearUnarmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BodySlicerArmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/CaltropsArmed_UI.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BodySlicerUnarmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BodyCrusherUnarmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/TrapPad_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Security/DeadfallArmed_UI.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/CaltropsArmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BearArmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/SpikesArmed_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Security/TrapSpikeArmed_UI.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/SpikesArmed_north.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/Saws_east.png
+- Assets/Data/Mlie.TrapsPlus/Textures/Things/Building/BodyCrusherArmed_UI.png
+Dependencies: []
