@@ -1,43 +1,67 @@
-# .github/copilot-instructions.md
+# GitHub Copilot Instructions for Traps Plus (Continued) Mod
 
-## RimWorld Mod: Traps Plus
+## Mod Overview and Purpose
 
-### Mod Overview and Purpose
-The "Traps Plus" mod for RimWorld introduces a variety of custom traps to enhance base defense strategies. Each trap has unique characteristics and employs different mechanisms to deter, injure, or incapacitate enemies. This mod aims to provide players with creative and strategic options when defending against raids and threats in their colonies.
+**Traps Plus (Continued)** is a RimWorld mod that aims to enhance the gameplay experience by adding new, improved, and versatile traps to the game. The mod focuses on providing higher-quality textures and allowing players to select between new and old textures for a more personalized experience.
 
-### Key Features and Systems
-- **Diverse Trap Types:**
-  - **Building_BearTrap:** A mechanical trap that immobilizes and damages enemies.
-  - **Building_BodyCrusherTrap:** A heavy-duty trap designed to crush intruders.
-  - **Building_BodySlicerTrap:** Utilizes sharp blades to slice enemies.
-  - **Building_CaltropsTrap:** Deploys spiked objects on the ground to impair movement.
-  - **Building_FreezePadTrap:** Emits freezing temperatures to slow down and harm.
-  - **Building_HeatPadTrap:** Creates intense heat to burn and damage.
-  - **Building_SawsTrap:** A rotating saw that cuts through intruders.
-  - **Building_SpikesTrap:** Uses spikes to impale enemies.
+## Key Features and Systems
 
-- **Hediff Management:**
-  - The `HediffDefOfTrap` class is used to manage and define injuries or conditions (Hediffs) applied by traps.
+- **Higher Quality Textures:** The mod includes enhanced textures for all traps, thanks to Jabbamonkey's contributions. Players can toggle between new and old textures by rotating the trap before placing it.
+- **Additional Traps:** The mod adds several new traps to the game, including:
+  - Bear Trap (Rearmable)
+  - Spikes
+  - Caltrops
+  - Body Crusher (Rearmable)
+  - Body Slicer (Rearmable)
+  - Heat Pad (Powered)
+  - Freeze Pad (Powered)
+  - Saws (Powered)
+- **Modular Design:** The mod is designed to be easily expandable, with plans to add more traps in the future.
 
-### Coding Patterns and Conventions
-- **Class Naming:** Classes are prefixed with `Building_` to indicate they are structures within the game, following the base structure from RimWorld’s development pattern.
-- **Method Naming:** The convention of using camelCase is followed, e.g., `DamagePawn`, to denote private methods within classes.
-- **Inheritance:** Trap classes typically inherit from either `Building_TrapRearmable` or `Building_Trap`, capturing reusable architecture from the base game's implementation.
+## Coding Patterns and Conventions
 
-### XML Integration
-- XML integration is generally done to define traps' properties such as damage amount, rearm time, graphic representation, and other gameplay elements.
-- Ensure that each trap has its corresponding XML definition to properly instantiate in the game environment.
+- **Consistent Naming Conventions:** Use PascalCase for class names and methods, and camelCase for local variables and parameters.
+- **Code Organization:** Maintain a clean and organized codebase by grouping related classes and methods together.
+- **Documentation:** Provide clear comments and documentation for complex logic and methods to ensure maintainability.
 
-### Harmony Patching
-- **Usage:** Harmony is utilized to modify or extend the game's assembly without directly altering the RimWorld code.
-- Consider using Harmony to intercept methods if modifications to core behaviors are necessary, such as altering how traps trigger or apply effects to pawns.
-- Always utilize prefixes and postfixes within Harmony patches to safely manage game functionality.
+## XML Integration
 
-### Suggestions for Copilot
-- **Method Suggestions:** Provide code snippets for calculating damage or rearm times dynamically based on trap type.
-- **XML Generation:** Assist with the generation of XML configuration files for new traps, including necessary attributes like `damage`, `cost`, and `durability`.
-- **Patching Examples:** Supply examples of Harmony patches, demonstrating their application to trap triggering methods.
-- **Code Optimization:** Suggest refactorings to improve performance, particularly when handling repeated operations or calculations in `DamagePawn`.
-- **Documentation Aids:** Provide automated documentation comments to ensure methods and classes are well-described.
+- **Def Files:** The mod uses XML files to define new game elements such as traps and their properties.
+- **Patch Files:** The mod utilizes XML patch files to modify existing game mechanics and integrate new traps seamlessly.
 
-By adhering to these guidelines and suggestions, developers and Copilot can collaboratively maintain, extend, and improve the Traps Plus mod to ensure high-quality and engaging gameplay experiences for RimWorld players.
+## Harmony Patching
+
+- **Harmony Patches:** Use Harmony patching to modify existing game code without altering the original source files. This ensures compatibility with future game updates.
+- **Patch Naming Conventions:** Name patch methods and classes clearly to indicate their purpose and impact on the game.
+
+## Suggestions for Copilot
+
+- **Code Templates:** Provide code templates for new traps and classes to streamline the development process.
+- **XML Snippets:** Include XML snippets for defining new game elements and patches to save time and reduce errors.
+- **Example Patches:** Share example Harmony patches for modifying game behavior, such as adjusting trap mechanics or adding new features.
+- **Texture Guidelines:** Provide guidelines and best practices for creating and integrating high-quality textures for new traps.
+
+## Additional Information
+
+- **Dependencies:** Ensure that the mod is compatible with the following dependencies:
+  - Dorely.BetaTraps
+  - UnlimitedHugs.HugsLib
+- **Error Reporting:** If you encounter any issues, please report them using the Discord channel or the GitHub repository, following the provided guidelines.
+
+By following these instructions, developers can contribute effectively to the Traps Plus (Continued) mod and help enhance the RimWorld experience for players worldwide.
+
+## Project Solution Guidelines
+- Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
+- Use these in-solution XML files as the primary files for reference and modification.
+- The `.github/copilot-instructions.md` file is included in the solution under the `.github` solution folder, so it should be read/modified from within the solution instead of using paths outside the solution. Update this file once only, as it and the parent-path solution reference point to the same file in this workspace.
+- When making functional changes in this mod, ensure the documented features stay in sync with implementation; use the in-solution `.github` copy as the primary file.
+- In the solution is also a project called Assembly-CSharp, containing a read-only version of the decompiled game source, for reference and debugging purposes.
+- For any new documentation, update this copilot-instructions.md file rather than creating separate documentation files.
+
+
+## Hard rules (must follow)
+- Do NOT run commands that modify the repo (no git commit, git apply, dotnet format) unless explicitly asked.
+- Prefer minimal reads: read only the smallest code region needed (around the suspicious lines).
+- When mentioning SonarQube issues, automatically use the SonarQube MCP service to fetch and address issues instead of making inferred fixes without querying SonarQube first.
+- When mentioning the rimworld log, automatically use the Rimworld MCP service to fetch the log.
+

@@ -27,7 +27,7 @@ public class Building_HeatPadTrap : Building_Trap
         var randomInRange = DamageCount.RandomInRange;
         for (var i = 0; i < randomInRange; i++)
         {
-            if (!(num > 0))
+            if (num <= 0)
             {
                 break;
             }

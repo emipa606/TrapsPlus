@@ -19,7 +19,7 @@ public class Building_SpikesTrap : Building_Trap
         var randomInRange = DamageCount.RandomInRange;
         for (var i = 0; i < randomInRange; i++)
         {
-            if (!(num > 0))
+            if (num <= 0)
             {
                 break;
             }

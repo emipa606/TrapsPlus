@@ -6,4 +6,16 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="TrapsPlus/TrapsPlus.csproj" />
+  <Folder Name="/XML/Defs/ThingDefs_Buildings/">
+    <File Path="../Defs/ThingDefs_Buildings/Buildings_Security.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/HediffDefs/">
+    <File Path="../Defs/HediffDefs/Hediffs_Trap.xml" />
+  </Folder>
+  <Folder Name="/XML/Patches/">
+    <File Path="../Patches/BetaTraps.xml" />
+  </Folder>
 </Solution>

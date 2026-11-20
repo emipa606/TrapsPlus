@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: poisoned -->
+  <PoisonedTrap.label>poisoned</PoisonedTrap.label>
+  <!-- EN: poisoned -->
+  <PoisonedTrap.description>poisoned</PoisonedTrap.description>
+  <!-- EN: slowed -->
+  <SlowedTrap.label>slowed</SlowedTrap.label>
+  <!-- EN: slowed -->
+  <SlowedTrap.description>slowed</SlowedTrap.description>
+</LanguageData>
